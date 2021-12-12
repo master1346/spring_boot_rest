@@ -1,9 +1,12 @@
 package com.example.spring_rest;
 
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 public class Person {
+    @NotNull
     private String user;
+    @NotNull
     private String password;
     private List<Authorities> authoritiesList;
 
