@@ -1,10 +1,8 @@
-package com.example.spring_rest.Repository;
+package com.example.spring_rest.repository;
 
 import com.example.spring_rest.Authorities;
 import com.example.spring_rest.Person;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 import java.util.Collections;

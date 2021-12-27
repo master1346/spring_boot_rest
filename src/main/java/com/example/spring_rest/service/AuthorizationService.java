@@ -1,16 +1,10 @@
-package com.example.spring_rest.Service;
+package com.example.spring_rest.service;
 
 import com.example.spring_rest.Authorities;
-import com.example.spring_rest.Credentials.InvalidCredentials;
-import com.example.spring_rest.Repository.UserRepository;
-import com.example.spring_rest.User.UnauthorizedUser;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Component;
+import com.example.spring_rest.credentials.InvalidCredentials;
+import com.example.spring_rest.repository.UserRepository;
+import com.example.spring_rest.user.UnauthorizedUser;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseStatus;
 
 import java.util.List;
 
