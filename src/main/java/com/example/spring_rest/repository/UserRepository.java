@@ -1,4 +1,4 @@
-package com.example.spring_rest.Repository;
+package com.example.spring_rest.repository;
 
 import com.example.spring_rest.Authorities;
 import com.example.spring_rest.Person;

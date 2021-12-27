@@ -1,7 +1,7 @@
 package com.example.spring_rest;
 
-import com.example.spring_rest.Credentials.InvalidCredentials;
-import com.example.spring_rest.User.UnauthorizedUser;
+import com.example.spring_rest.credentials.InvalidCredentials;
+import com.example.spring_rest.user.UnauthorizedUser;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

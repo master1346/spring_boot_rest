@@ -1,8 +1,7 @@
-package com.example.spring_rest.Controller;
+package com.example.spring_rest.controller;
 
 import com.example.spring_rest.Authorities;
-import com.example.spring_rest.Service.AuthorizationService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.spring_rest.service.AuthorizationService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
